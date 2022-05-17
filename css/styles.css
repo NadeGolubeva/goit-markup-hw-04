@@ -66,8 +66,8 @@ outline: 1px solid red;}
 .socials-footer {
   
   outline: 1px solid blue;
-}
-*/
+} */
+
 
 
 /* Hero */
@@ -391,6 +391,7 @@ background-image: url(../images/head.png);
 .clients-list {
   display: flex;
   justify-content: center;
+  
 }
 .client-link {
   display: flex;
@@ -401,9 +402,16 @@ background-image: url(../images/head.png);
   align-items: center;
   fill: #afb1b8;
 }
+.client-items {
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
 
 .client-items:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
+}
+.client-items:hover {
+  border: 1px solid var(--accent-color);
 }
 .client-link:hover {
   fill: var(--accent-color);
