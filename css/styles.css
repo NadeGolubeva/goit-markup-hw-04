@@ -1,4 +1,4 @@
-/* colors for check
+ /* colors for check
 
  .section:nth-child(odd) {
   background-color: lightgrey;
@@ -58,7 +58,17 @@ outline: 1px solid red;
 }
 .overlay {outline: 1px solid tomato; }
 .client-link {
-outline: 1px solid red;} */
+outline: 1px solid red;}  
+
+.socials-block .text {
+  outline: 1px solid yellow;
+}
+.socials-footer {
+  
+  outline: 1px solid blue;
+}
+*/
+
 
 /* Hero */
 
@@ -68,9 +78,9 @@ outline: 1px solid red;} */
   margin-left: auto;
   margin-right: auto;
 
-  background-color: rgba(0, 1, 4, 0.4);
-  background-image: url(../images/head.png);
+/* background-image: linear-gradient(to right, #4e3535, #113b1a); */
 
+background-image: url(../images/head.png);
   background-position: center;
   background-size: cover;
   padding-left: 15px;
@@ -355,6 +365,8 @@ outline: 1px solid red;} */
   padding-top: 16px;
   justify-content: center;
 }
+
+
 .social-item:not(:last-child) {
   margin-right: 10px;
 }

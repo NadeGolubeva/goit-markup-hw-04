@@ -235,12 +235,49 @@ margin-right: 93px;
 .contacts.mail {
   margin-bottom: 9px; 
 }
-.socials-footer {
-  display: flex;
-  margin-right: 878px;
-  margin-left: 0px;
+.socials-block {
+  display: inline-block;
+  position: relative;
+  left: 290px;
+  top: -100px;
 }
-.socials-footer p {
+  /* margin-right: 878px;
+  margin-left: 0px;
+  */
+
+ .socials-block .text {
+   display: block;
   text-transform: uppercase;
   color: white;
+ 
+}
+.socials-footer {
+  display: flex;
+  padding-right: 0;
+  padding-left: 0;
+  /* padding-bottom: 30px;  */
+  padding-top: 16px;
+  justify-content: center;
+ 
+}
+
+
+.social-footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  fill: #afb1b8;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  fill: white;
 }
