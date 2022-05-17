@@ -77,10 +77,9 @@ outline: 1px solid red;}
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-
-/* background-image: linear-gradient(to right, #4e3535, #113b1a); */
-
-background-image: url(../images/head.png);
+  background:
+      linear-gradient(to right, rgba(47, 48, 58, .4), rgba(47, 48, 58, .4)),
+      url(../images/head.png);
   background-position: center;
   background-size: cover;
   padding-left: 15px;
@@ -410,7 +409,8 @@ background-image: url(../images/head.png);
 .client-items:not(:last-child) {
   margin-right: 30px;
 }
-.client-items:hover {
+.client-items:hover,
+.client-items:focus {
   border: 1px solid var(--accent-color);
 }
 .client-link:hover {
@@ -434,10 +434,7 @@ section {
   justify-content: center;
   cursor: pointer;
 }
-.flex-element:hover,
-.flex-element:focus {
-  cursor: pointer;
-}
+
 .element-discription {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -493,6 +490,12 @@ section {
   background: var(--white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+ 
+}
+.flex-element:hover,
+.flex-element:focus {
+ box-shadow: 1px 3px 5px #757575;
+ cursor: pointer;
 }
 
 .flex-element:nth-child(3n) {
