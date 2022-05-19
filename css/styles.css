@@ -413,7 +413,8 @@ outline: 1px solid red;}
 .client-items:focus {
   border: 1px solid var(--accent-color);
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   fill: var(--accent-color);
 }
 
