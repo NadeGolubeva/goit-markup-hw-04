@@ -211,6 +211,8 @@ outline: 1px solid red;}
   background-position: center; */
   justify-content: center;
   align-items: center;
+  border-radius:4px;
+  box-shadow: 0px 2px 4px #787373;
 }
 .feature-icon {
   /* display: inline-block; */

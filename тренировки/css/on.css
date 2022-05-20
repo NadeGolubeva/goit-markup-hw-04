@@ -1,4 +1,223 @@
-.actions {
+
+body {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+  background: #bda8a8;
+
+}
+.nav {
+    width: 1720px;
+    display: flex;
+    margin: 80px auto 0 auto;
+    flex-flow: row nowrap;
+}
+
+.logo {
+    width: 287px;
+    height: 28px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+
+.razdelitel {
+    margin-left:35px;
+    width: 1px;
+    height: 28px;
+    background-color: #160e0e;
+}
+
+.be {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 35px;
+    width: 21px;
+    height: 16px;
+    background-image: url(../sprite.svg#icon-envelope);
+    background-repeat: no-repeat;
+    
+}
+
+.be:hover {
+    display: inline-block;
+    transition: 1s;
+    margin-top: 6px;
+    margin-left: 35px;
+    width: 21px;
+    height: 16px;
+    background-image: url(../sprite.svg#icon-envelope);
+    background-repeat: no-repeat;
+    
+}
+
+.insta {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/insta.png);
+    background-repeat: no-repeat;
+    
+}
+
+.insta:hover {
+    display: inline-block;
+    transition: 1s;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/instahover.png);
+    background-repeat: no-repeat;
+    
+}
+
+.vk {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 21px;
+    height: 16px;
+    background-image: url(../images/vk.png);
+    background-repeat: no-repeat;
+    
+}
+
+.vk:hover {
+    display: inline-block;
+    transition: 1s;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 21px;
+    height: 16px;
+    background-image: url(../images/vkhover.png);
+    background-repeat: no-repeat;
+    
+}
+
+.contacts {
+    display: flex;
+    position: relative;
+    padding-left: 21px;
+    line-height: 16px;
+}
+
+.mailicon {
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin-left: 965px;
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.mailicon:hover {
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin-left:px;
+    background-image: url(../images/mailhover.png);
+    background-repeat: no-repeat;
+}
+
+.telegramicon {
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin-left: 1150px;
+    background-image: url(../images/telegram.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+}
+
+.telegramicon:hover {
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin-left:;
+    background-image: url(../images/telegramhover.png);
+    background-repeat: no-repeat;
+}
+
+.mail {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 985px;
+    width: 20px;
+    height: 16px;
+
+}
+ 
+.mail:hover {
+    display: inline-block;
+    transition: 1s;
+    margin-top: 6px;
+    margin-left: 985px;
+    width: 20px;
+    height: 16px;
+}
+ 
+
+
+.telegram {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 150px;
+    width: 20px;
+    height: 16px;
+
+}
+
+ 
+.telegram:hover {
+    display: inline-block;
+    transition: 1s;
+    margin-top: 6px;
+    margin-left: 150px;
+    width: 20px;
+
+}
+
+
+.mail a {
+    display: inline-block;
+    margin-left: 1000px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5b5b5b;
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+}
+
+.mail a:hover {
+    display: inline-block;
+    transition: 1s;
+    color: #ff1e4f;
+}
+
+.telegram a {
+    display: inline-block;
+    margin-left: 1180px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5b5b5b;
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+}
+
+.telegram a:hover {
+    display: inline-block;
+    transition: 1s;
+    color: #ff1e4f;
+}
+/* .actions {
   display: flex;
   padding: 0;
   margin: 0;
@@ -16,7 +235,7 @@
 
 .button-icon:hover {
   fill:red;
-}
+} */
 /* =================== */
 
 /* .btn {
