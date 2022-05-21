@@ -275,8 +275,8 @@ ul {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
-  background-color: var(--secondary-text-color);
+  fill: #FFFFFF;
+  background-color: rgba(255, 255, 255, 10%);
 }
 
 .social-link-footer:hover,

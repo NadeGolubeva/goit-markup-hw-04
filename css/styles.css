@@ -212,7 +212,7 @@ outline: 1px solid red;}
   justify-content: center;
   align-items: center;
   border-radius:4px;
-  box-shadow: 0px 2px 4px #787373;
+  /* box-shadow: 0px 2px 4px #787373; */
 }
 .feature-icon {
   /* display: inline-block; */
@@ -497,7 +497,9 @@ section {
 }
 .flex-element:hover,
 .flex-element:focus {
- box-shadow: 1px 3px 5px #757575;
+ box-shadow: 0px 4px 5px 0px #ada8a8,
+ 2px 0px 5px 0px #d9d5d5;
+
  cursor: pointer;
 }
 
